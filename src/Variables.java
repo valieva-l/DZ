@@ -65,7 +65,5 @@ public class Variables {
         var workingHoursNew = totalHours/numberEmployeesNew;
         System.out.println("Если в компании работает " + numberEmployeesNew + " человек, то всего "  + workingHoursNew +  " часов работы может быть поделено между сотрудниками");
 
-
-
     }
 }
