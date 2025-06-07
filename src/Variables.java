@@ -1,69 +1,68 @@
 public class Variables {
     public static void main(String[] args) {
         System.out.println("Задача 1");
-        var dog = 8.0;
-        System.out.println(dog);
-        var cat = 3.6;
-        System.out.println(cat);
-        var paper = 763789;
-        System.out.println(paper);
+        int forest = 2150546;
+        System.out.println("Значение переменной forest с типом int равно " + forest);
+        byte game = 55;
+        System.out.println("Значение переменной game с типом byte равно " + game);
+        short mur = 31000;
+        System.out.println("Значение переменной mur с типом short равно " + mur);
+        long max = 365326583;
+        System.out.println("Значение переменной max с типом long равно " + max);
+        float time = 3.586F;
+        System.out.println("Значение переменной time с типом float равно " + time);
+        double bond = 86.55654236542;
+        System.out.println("Значение переменной bond с типом double равно " + bond);
 
         System.out.println("Задача 2");
-        dog = dog + 4;
-        System.out.println(dog);
-        cat =cat + 4;
-        System.out.println(cat);
-        paper = paper + 4;
-        System.out.println(paper);
+        float inn = 27.12F;
+        System.out.println(inn);
+        long jdk = 987_678_965_549l;
+        System.out.println(jdk);
+        float nik = 2.786F;
+        System.out.println(nik);
+        short mir = 569;
+        System.out.println(mir);
+        short kir = -159;
+        System.out.println(kir);
+        short lea = 27897;
+        System.out.println(lea);
+        byte low = 67;
+        System.out.println(low);
 
         System.out.println("Задача 3");
-        dog = dog - 4;
-        System.out.println(dog);
-        cat = cat - 4;
-        System.out.println(cat);
-        paper = paper - 4;
-        System.out.println(paper);
+
+        byte firstTeacher = 23;
+        byte secondTeacher = 27;
+        byte thirdTeacher = 30;
+        short quantityPaper = 480;
+        int numberStudents = firstTeacher + secondTeacher + thirdTeacher;
+        int numberSheets = quantityPaper/numberStudents;
+        System.out.println("На каждого ученика рассчитано " + numberSheets + " листов бумаги");
 
         System.out.println("Задача 4");
-        var friend = 19;
-        System.out.println(friend);
-        friend += 2;
-        System.out.println(friend);
-        friend /= 7;
-        System.out.println(friend);
+        byte performance = 16;
+        byte minutes = 2;
+        byte minutesOne = 20;
+        int timeOne = performance/minutes;
+        int timeTwo = timeOne*minutesOne;
+        System.out.println("За " +  minutesOne + " минут машина произвела " + timeTwo + " штук бутылок");
+        short minutesDay = 24*60;
+        int timeThree = timeOne*minutesDay;
+        System.out.println("За сутки машина произвела " + timeThree + " штук бутылок");
+        short minutesThreeDay = 24*3*60;
+        int timeFour = timeOne*minutesThreeDay;
+        System.out.println("За 3 дня машина произвела " + timeFour + " штук бутылок");
+        int minutesFourDay = 24*30*60;
+        int timeFive = timeOne*minutesFourDay;
+        System.out.println("За месяц машина произвела " + timeFive + " штук бутылок");
 
         System.out.println("Задача 5");
-        var frog = 3.5;
-        System.out.println(frog);
-        frog *=10;
-        System.out.println(frog);
-        frog /=3.5;
-        System.out.println(frog);
-        frog +=4;
-        System.out.println(frog);
 
-        System.out.println("Задача 6");
-        var weightOneBoxer = 78.2;
-        var weightSecondBoxer = 82.7;
-        var totalMass = weightOneBoxer + weightSecondBoxer;
-        System.out.println("Общая масса двух бойцов "+ totalMass + " кг");
-        var differenceMass = weightSecondBoxer - weightOneBoxer;
-        System.out.println("Разница между массами бойцов состовляет " + differenceMass + " кг");
 
-        System.out.println("Задача 7");
-        var remainderDivision = weightSecondBoxer%weightOneBoxer;
-        System.out.println("Остаток от деления между двумя весами " + remainderDivision + " кг");
 
-        System.out.println("Задача 8");
-        var totalHours = 640;
-        var workingHours = 8;
-        var numberEmployees = totalHours/workingHours;
-        System.out.println("Всего работников в компании — " + numberEmployees +  " человек");
 
-        var moreNumberEmployees = 94;
-        var numberEmployeesNew = numberEmployees + moreNumberEmployees;
-        var workingHoursNew = totalHours/numberEmployeesNew;
-        System.out.println("Если в компании работает " + numberEmployeesNew + " человек, то всего "  + workingHoursNew +  " часов работы может быть поделено между сотрудниками");
+
 
 
     }
